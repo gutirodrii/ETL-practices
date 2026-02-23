@@ -1,6 +1,1 @@
-ipykernel
-jupyterlab
-matplotlib
-pandas
-pypdf
-requests
+-r Lesson2/Practice3/requirements.txt

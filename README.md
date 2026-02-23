@@ -1,24 +1,18 @@
 # ETL Practices
 
-Editor online con kernel de Jupyter para correr las prácticas del proyecto.
+Estructura modular por lección/práctica.
 
-[![Open In Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gutirodrii/ETL-practices/HEAD?urlpath=lab/tree/ETL_Lesson_2_Practice_3_solution.ipynb)
+## Estructura
 
-## Cómo usarlo
+- `Lesson2/Practice3/`
+  - `.venv/`
+  - `venv/`
+  - `ETL Lesson 2 Practice 3.pdf`
+  - `ETL_Lesson_2_Practice_3_solution.ipynb`
+  - `requirements.txt`
 
-1. Haz clic en **Open In Binder**.
-2. Espera a que se construya el entorno (la primera vez tarda más).
-3. Se abrirá JupyterLab online con el notebook:
-   `ETL_Lesson_2_Practice_3_solution.ipynb`.
-4. Ejecuta las celdas normalmente (Shift + Enter).
+## Editor Online (Jupyter)
 
-## Dependencias del entorno online
+[![Open In Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gutirodrii/ETL-practices/HEAD?urlpath=lab/tree/Lesson2/Practice3/ETL_Lesson_2_Practice_3_solution.ipynb)
 
-Binder instala automáticamente las librerías definidas en `requirements.txt`:
-
-- `requests`
-- `pandas`
-- `matplotlib`
-- `pypdf`
-- `jupyterlab`
-- `ipykernel`
+Binder instalará las dependencias desde el `requirements.txt` raíz, que referencia el de la práctica.
