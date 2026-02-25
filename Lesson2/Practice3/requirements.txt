@@ -1,6 +1,0 @@
-ipykernel
-jupyterlab
-matplotlib
-pandas
-pypdf
-requests
