@@ -1,0 +1,491 @@
+ProductID,ProductName,ProductCategory,ProductPrice,CustomerEmail,AmountSpent,LoyaltyScore,PurchaseDate,PaymentMethod,ShippingCountry
+P0001,Phone,Electronics,91.92,user1@example.com,114.90142459033699,26.0,2023-02-20,Cash,Germany
+P0003,Shirt,Clothing,95.54,user3@example.com,119.43065614302077,98.0,2023-07-08,Credit Card,UK
+P0004,Shirt,Clothing,116.55,user4@example.com,145.69089569224076,59.0,2025-01-01,Credit Card,Germany
+P0005,Phone,Electronics,74.38,user5@example.com,92.97539875829992,56.0,2023-11-27,Cash,USA
+P0006,Phone,Electronics,74.38,user6@example.com,92.97589129152459,59.0,2025-01-01,Cash,Germany
+P0007,Desk,Office,117.9,user7@example.com,147.37638446522175,70.0,2023-02-01,Cash,USA
+P0008,Laptop,Electronics,98.42,invalid-email,123.02304187458726,33.0,2023-07-23,Credit Card,UK
+P0009,Book,Office,68.73,user9@example.com,85.91576842195144,53.0,2023-05-22,Debit Card,USA
+P0010,Laptop,Electronics,93.02,user10@example.com,116.27680130757894,22.0,2023-04-08,Debit Card,UK
+P0011,Shirt,Clothing,68.88,user11@example.com,86.09746921562613,21.0,2023-03-04,Paypal,Canada
+P0012,Book,Office,68.82,user12@example.com,165.3978771251395,70.0,2023-08-21,Cash,Canada
+P0013,Laptop,Electronics,85.81,user13@example.com,107.25886814698103,70.0,2023-02-16,Cash,France
+P0014,Laptop,Electronics,34.08,user14@example.com,42.601592660266064,4.0,2023-12-06,Debit Card,UK
+P0015,Phone,Electronics,38.6,user15@example.com,48.252465024609016,94.0,2023-04-19,Paypal,France
+P0016,Book,Office,66.51,user16@example.com,83.13137412277082,75.0,2023-11-25,Credit Card,France
+P0017,Shirt,Clothing,55.69,user17@example.com,69.61506638996728,62.0,2023-11-24,Credit Card,Canada
+P0018,Book,Office,87.54,user18@example.com,109.42741997785822,62.0,2023-11-02,Debit Card,USA
+P0019,Desk,Office,58.21,user19@example.com,72.75927773436366,94.0,2023-01-11,Cash,USA
+P0020,Laptop,Electronics,46.1,user20@example.com,57.630888959941245,95.0,2023-01-26,Credit Card,Germany
+P0021,Desk,Office,115.18,user21@example.com,143.96946306764661,24.0,2023-06-20,Paypal,Spain
+P0022,Phone,Electronics,74.58,user22@example.com,93.22671098540393,55.0,2023-05-05,Paypal,UK
+P0023,Shirt,Clothing,81.62,user23@example.com,102.02584614063771,9.0,2023-03-06,Cash,Germany
+P0025,Desk,Office,66.93,user25@example.com,83.66851826424453,31.0,2023-04-16,Debit Card,Germany
+P0026,Shirt,Clothing,82.66,user26@example.com,103.32767769129599,40.0,2023-02-05,Credit Card,France
+P0027,Laptop,Electronics,52.38,user27@example.com,65.47019267733091,36.0,2023-10-11,Credit Card,Spain
+P0028,Laptop,Electronics,89.02,user28@example.com,111.27094055037016,24.0,2023-04-17,Credit Card,Canada
+P0029,Desk,Office,65.58,user29@example.com,165.3978771251395,95.0,2023-10-28,Paypal,USA
+P0030,Phone,Electronics,73.0,user30@example.com,165.3978771251395,6.0,2023-04-21,Debit Card,USA
+P0031,Desk,Office,65.56,user31@example.com,81.9488016331181,66.0,2023-04-30,Cash,USA
+P0032,Phone,Electronics,124.45,user32@example.com,155.56834553526812,84.0,2025-01-01,Credit Card,Unknown
+P0033,Book,Office,79.68,user33@example.com,99.59508325786199,92.0,2023-03-17,Cash,Germany
+P0034,Desk,Office,54.61,user34@example.com,68.268672131323,75.0,2023-11-02,Cash,Canada
+P0035,Shirt,Clothing,99.74,user35@example.com,124.67634736309567,4.0,2023-01-02,Cash,France
+P0036,Book,Office,50.7,user36@example.com,63.374690500869335,79.0,2023-05-22,Cash,France
+P0037,Desk,Office,85.01,user37@example.com,106.26590785014267,6.0,2023-03-16,Paypal,Canada
+P0039,Desk,Office,48.12,user39@example.com,60.154418533047085,51.0,2023-10-04,Paypal,France
+P0040,Book,Office,84.72,user40@example.com,105.90583707607371,62.0,2023-05-09,Paypal,Unknown
+P0041,Phone,Electronics,97.72,user41@example.com,122.15399739986232,57.0,2023-03-31,Credit Card,France
+P0042,Laptop,Electronics,84.11,user42@example.com,105.14104843569912,66.0,2023-02-26,Credit Card,Unknown
+P0043,Shirt,Clothing,77.22,user43@example.com,96.53055152835279,79.0,2023-12-05,Paypal,USA
+P0044,Shirt,Clothing,72.77,user44@example.com,90.96688913232134,75.0,2023-01-14,Credit Card,USA
+P0045,Laptop,Electronics,44.52,user45@example.com,55.644340288977176,8.0,2025-01-01,Debit Card,Canada
+P0046,Shirt,Clothing,62.72,user46@example.com,78.40467374815874,26.0,2023-01-08,Paypal,France
+P0047,Laptop,Electronics,68.94,user47@example.com,165.3978771251395,51.0,2023-07-03,Credit Card,Spain
+P0048,Shirt,Clothing,105.37,user48@example.com,131.71366678656747,45.0,2023-05-02,Credit Card,UK
+P0049,Phone,Electronics,88.25,user49@example.com,110.30854868705384,44.0,2025-01-01,Cash,France
+P0050,Shirt,Clothing,37.69,user50@example.com,47.10879533911798,5.0,2023-06-15,Paypal,USA
+P0051,Shirt,Clothing,87.78,user51@example.com,109.72251908184386,70.0,2023-01-09,Cash,France
+P0052,Shirt,Clothing,70.76,user52@example.com,88.4475315875105,26.0,2023-03-31,Cash,Germany
+P0053,Shirt,Clothing,63.75,user53@example.com,79.69233999082124,68.0,2023-05-16,Paypal,USA
+P0054,Desk,Office,94.68,user54@example.com,118.35028866522603,19.0,2023-01-27,Debit Card,France
+P0055,Phone,Electronics,118.23416842105257,user55@example.com,130.92998567487854,84.0,2023-03-06,Cash,Spain
+P0056,Phone,Electronics,102.35,user56@example.com,127.93840357348596,97.0,2023-08-04,Credit Card,Germany
+P0057,Laptop,Electronics,59.86,user57@example.com,74.82347430332085,20.0,2023-09-27,Credit Card,USA
+P0058,Phone,Electronics,118.23416842105257,user58@example.com,90.72362872446357,12.0,2023-02-28,Credit Card,Unknown
+P0059,Laptop,Electronics,87.95,user59@example.com,109.93790294210692,47.0,2023-02-02,Cash,France
+P0060,Shirt,Clothing,103.41,user60@example.com,165.3978771251395,1.0,2023-09-01,Debit Card,UK
+P0061,Desk,Office,68.5,user61@example.com,85.6247728646413,49.0,2023-08-18,Paypal,UK
+P0062,Phone,Electronics,75.54,user62@example.com,94.43023070008549,14.0,2023-07-05,Cash,UK
+P0063,Book,Office,53.45,user63@example.com,66.80995077981916,64.0,2023-09-20,Credit Card,Germany
+P0064,Phone,Electronics,51.29,user64@example.com,64.11380127757988,38.0,2023-10-31,Credit Card,UK
+P0065,Desk,Office,99.5,user65@example.com,124.37577467182594,37.0,2023-02-25,Credit Card,Spain
+P0066,Phone,Electronics,112.55,user66@example.com,140.68720085712468,11.0,2023-08-20,Debit Card,France
+P0067,Shirt,Clothing,78.27,user67@example.com,97.83969635258998,77.0,2023-09-15,Debit Card,USA
+P0068,Laptop,Electronics,104.08,user68@example.com,165.3978771251395,3.0,2023-04-24,Credit Card,Spain
+P0069,Shirt,Clothing,118.23416842105257,user69@example.com,110.84908075142903,49.0,2023-11-11,Cash,Germany
+P0070,Shirt,Clothing,64.52,user70@example.com,80.64640736184627,6.0,2023-01-23,Paypal,France
+P0071,Shirt,Clothing,88.67,user71@example.com,110.84186816525242,50.0,2023-12-04,Debit Card,France
+P0072,Desk,Office,116.91,user72@example.com,146.1410969939791,10.0,2025-01-01,Debit Card,UK
+P0073,Desk,Office,79.14,user73@example.com,98.92521882670145,5.0,2023-06-04,Debit Card,France
+P0074,Shirt,Clothing,117.55,user74@example.com,146.93930967442017,23.0,2023-08-23,Debit Card,Spain
+P0075,Phone,Electronics,17.13,user75@example.com,21.40764687730767,10.0,2023-11-26,Paypal,Canada
+P0076,Shirt,Clothing,99.73,user76@example.com,124.65707513125672,44.0,2023-01-16,Credit Card,France
+P0077,Desk,Office,82.09,user77@example.com,165.3978771251395,2.0,2023-02-01,Paypal,Germany
+P0078,Book,Office,72.82,user78@example.com,91.02977948602397,13.0,2023-09-03,Debit Card,UK
+P0079,Shirt,Clothing,82.2,user79@example.com,102.75282329606507,49.0,2023-07-25,Credit Card,UK
+P0080,Shirt,Clothing,32.3,user80@example.com,40.372932561973215,2.0,2023-08-07,Debit Card,France
+P0081,Book,Office,74.73,user81@example.com,93.40984336487465,84.0,2023-12-18,Debit Card,Canada
+P0082,Shirt,Clothing,88.57,user82@example.com,110.7133771453524,49.0,2023-02-25,Paypal,Spain
+P0083,Book,Office,115.47,user83@example.com,144.33682134224549,63.0,2023-09-09,Cash,France
+P0084,Desk,Office,118.23416842105257,user84@example.com,84.45189345179058,73.0,2023-12-31,Debit Card,USA
+P0085,Shirt,Clothing,60.6,user85@example.com,165.3978771251395,17.0,2023-08-16,Cash,Spain
+P0086,Shirt,Clothing,67.96,user86@example.com,84.9472886924639,9.0,2023-02-07,Debit Card,Canada
+P0087,Desk,Office,101.97,user87@example.com,127.46206353106223,75.0,2023-02-11,Credit Card,UK
+P0088,Book,Office,87.89,user88@example.com,109.86253328979053,15.0,2023-06-14,Cash,Germany
+P0089,Laptop,Electronics,67.29,user89@example.com,84.10719388698884,24.0,2023-11-08,Credit Card,UK
+P0090,Laptop,Electronics,92.32,invalid-email,115.39802299340069,38.0,2023-03-17,Paypal,USA
+P0091,Laptop,Electronics,82.33,user91@example.com,102.91232648044121,35.0,2023-02-03,Paypal,Spain
+P0092,Phone,Electronics,103.25,user92@example.com,129.05934971598668,94.0,2023-03-06,Debit Card,Canada
+P0093,Phone,Electronics,63.15,user93@example.com,78.93840718367943,95.0,2023-05-21,Paypal,Canada
+P0094,Book,Office,72.14,user94@example.com,90.17013560206695,49.0,2023-11-16,Credit Card,France
+P0095,Laptop,Electronics,70.59,user95@example.com,88.23675540603527,69.0,2025-01-01,Credit Card,UK
+P0096,Shirt,Clothing,44.88,invalid-email,56.09455155603644,62.0,2023-10-27,Debit Card,Spain
+P0097,Desk,Office,87.11,user97@example.com,108.88360831193728,60.0,2023-10-08,Credit Card,France
+P0098,Book,Office,86.27,user98@example.com,107.83165816539668,50.0,2023-12-31,Debit Card,Canada
+P0099,Desk,Office,118.23416842105257,invalid-email,100.15340369927382,78.0,2023-06-16,Cash,USA
+P0100,Desk,Office,74.37,user100@example.com,92.96238599874557,75.0,2023-07-15,Credit Card,Spain
+P0101,Laptop,Electronics,46.03,user101@example.com,57.53887773848757,9.0,2023-11-02,Paypal,USA
+P0102,Phone,Electronics,69.9,user102@example.com,87.38064031703922,34.0,2023-09-29,Paypal,France
+P0103,Phone,Electronics,71.77,user103@example.com,89.71856450419692,76.0,2023-05-31,Debit Card,UK
+P0104,Book,Office,60.75,user104@example.com,75.93168192335143,99.0,2023-08-21,Cash,Unknown
+P0105,Shirt,Clothing,76.13,user105@example.com,95.16142865001973,35.0,2023-09-16,Debit Card,France
+P0106,Phone,Electronics,89.7,user106@example.com,165.3978771251395,1.0,2023-11-06,Cash,Germany
+P0107,Laptop,Electronics,125.27,user107@example.com,156.5855770363159,40.0,2023-08-09,Paypal,UK
+P0108,Book,Office,84.19,user108@example.com,105.23733438495516,64.0,2023-02-20,Credit Card,France
+P0109,Book,Office,86.18,user109@example.com,107.72651172168293,22.0,2023-12-26,Credit Card,USA
+P0110,Desk,Office,78.21,user110@example.com,97.76662252701499,60.0,2023-02-28,Debit Card,Canada
+P0111,Desk,Office,33.95,user111@example.com,42.43686354102876,64.0,2023-12-02,Cash,France
+P0113,Book,Office,81.45,user113@example.com,101.8069062982308,49.0,2023-10-10,Credit Card,Germany
+P0114,Laptop,Electronics,139.12,user114@example.com,173.89726337455858,49.0,2023-04-21,Cash,UK
+P0115,Desk,Office,75.38,user115@example.com,94.22917105656633,14.0,2023-08-09,Cash,Germany
+P0116,Desk,Office,87.24,user116@example.com,109.04642027000837,60.0,2023-08-20,Paypal,UK
+P0117,Shirt,Clothing,79.17,user117@example.com,98.9586469088427,30.0,2023-04-27,Paypal,France
+P0118,Phone,Electronics,51.95,user118@example.com,64.93965887141404,35.0,2023-07-31,Paypal,Canada
+P0119,Phone,Electronics,107.43,user119@example.com,134.28468443545063,85.0,2023-06-23,Cash,France
+P0120,Laptop,Electronics,98.05,user120@example.com,122.55799098060322,37.0,2023-08-21,Paypal,Canada
+P0121,Phone,Electronics,98.98,user121@example.com,123.73095841129141,5.0,2025-01-01,Credit Card,Canada
+P0122,Book,Office,58.17,user122@example.com,72.71837635615783,83.0,2023-08-01,Debit Card,USA
+P0123,Phone,Electronics,113.67,user123@example.com,142.08382932808297,78.0,2023-02-18,Paypal,Canada
+P0124,Book,Office,46.36,user124@example.com,57.944468116231576,26.0,2023-06-10,Cash,USA
+P0125,Laptop,Electronics,94.08,user125@example.com,117.60571281400811,62.0,2023-08-07,Credit Card,Germany
+P0126,Shirt,Clothing,132.57,user126@example.com,165.71366877429935,4.0,2023-06-10,Debit Card,France
+P0127,Laptop,Electronics,56.23,user127@example.com,70.28391024607934,89.0,2023-12-07,Paypal,Unknown
+P0128,Desk,Office,66.41,user128@example.com,83.01106811191684,42.0,2025-01-01,Cash,Canada
+P0129,Desk,Office,82.39,user129@example.com,102.98954095262924,89.0,2023-07-11,Paypal,UK
+P0130,Desk,Office,67.92,user130@example.com,84.89573037651402,18.0,2023-03-20,Paypal,France
+P0132,Laptop,Electronics,81.65,invalid-email,102.05688924418082,72.0,2023-08-31,Cash,Germany
+P0133,Desk,Office,54.5,user133@example.com,68.13088858821685,39.0,2023-02-04,Paypal,Canada
+P0134,Desk,Office,91.37,user134@example.com,114.20777291905544,14.0,2025-01-01,Credit Card,USA
+P0135,Laptop,Electronics,57.93,user135@example.com,72.4172729729859,32.0,2023-02-13,Debit Card,Canada
+P0136,Book,Office,117.2,user136@example.com,146.4980321505262,51.0,2023-02-17,Paypal,Canada
+P0137,Laptop,Electronics,61.2,user137@example.com,76.50240122991289,38.0,2025-01-01,Cash,Canada
+P0138,Phone,Electronics,72.27,user138@example.com,90.33815451382974,97.0,2023-02-19,Paypal,USA
+P0139,Phone,Electronics,99.52,user139@example.com,124.40551652109009,23.0,2023-07-10,Credit Card,Germany
+P0140,Laptop,Electronics,118.23416842105257,user140@example.com,63.07407050698134,63.0,2023-03-08,Paypal,Canada
+P0141,Book,Office,85.46,user141@example.com,106.82379803812388,15.0,2023-10-12,Paypal,Spain
+P0142,Book,Office,111.37,user142@example.com,139.21428262847283,97.0,2023-01-31,Cash,Germany
+P0143,Shirt,Clothing,41.42,user143@example.com,51.77550296316318,25.0,2023-10-28,Credit Card,France
+P0144,Desk,Office,84.43,user144@example.com,105.53901575596913,17.0,2023-10-15,Paypal,USA
+P0145,Book,Office,86.24,user145@example.com,107.7964838274527,97.0,2023-10-15,Credit Card,Spain
+P0146,Shirt,Clothing,118.23416842105257,user146@example.com,123.4546861533193,66.0,2023-06-18,Paypal,UK
+P0147,Book,Office,50.31,user147@example.com,62.891478673657545,78.0,2023-12-10,Paypal,Spain
+P0148,Phone,Electronics,48.31,user148@example.com,60.38630160747171,53.0,2023-03-04,Paypal,Germany
+P0149,Shirt,Clothing,92.53,user149@example.com,115.65824696850693,51.0,2023-07-30,Debit Card,UK
+P0150,Shirt,Clothing,87.13,user150@example.com,108.90954019699558,39.0,2023-07-01,Credit Card,UK
+P0151,Desk,Office,86.01,user151@example.com,107.5147855103763,51.0,2023-12-07,Paypal,Canada
+P0152,Phone,Electronics,88.31,invalid-email,110.39344628490927,49.0,2023-08-05,Paypal,USA
+P0153,Book,Office,63.68,user153@example.com,79.59925835264528,6.0,2023-01-27,Debit Card,Spain
+P0154,Book,Office,85.57,user154@example.com,106.9676109148301,67.0,2023-05-28,Cash,UK
+P0155,Laptop,Electronics,87.03,user155@example.com,108.79217419896044,7.0,2025-01-01,Debit Card,France
+P0156,Shirt,Clothing,62.86,user156@example.com,78.56945745920896,51.0,2023-06-09,Paypal,UK
+P0157,Shirt,Clothing,124.78,user157@example.com,155.9732353343427,72.0,2023-06-30,Debit Card,USA
+P0158,Book,Office,91.37,user158@example.com,165.3978771251395,49.0,2023-02-23,Cash,Germany
+P0159,Shirt,Clothing,51.41,user159@example.com,64.26089508392054,64.0,2023-10-23,Credit Card,USA
+P0160,Shirt,Clothing,95.76,user160@example.com,119.6966082590149,49.0,2023-09-17,Debit Card,USA
+P0161,Laptop,Electronics,56.61,user161@example.com,70.75954989318036,29.0,2023-04-19,Paypal,Germany
+P0162,Phone,Electronics,98.89,user162@example.com,123.61253811227355,33.0,2023-03-21,Debit Card,Canada
+P0163,Shirt,Clothing,107.81,user163@example.com,134.75786737022213,94.0,2023-12-03,Debit Card,Spain
+P0164,Desk,Office,60.3,user164@example.com,75.37953044944868,27.0,2023-09-04,Credit Card,USA
+P0165,Desk,Office,103.12,user165@example.com,128.90128387732966,36.0,2023-04-25,Credit Card,France
+P0166,Laptop,Electronics,89.91,user166@example.com,112.38342780809495,29.0,2025-01-01,Cash,Germany
+P0167,Shirt,Clothing,99.73,user167@example.com,124.6618047998347,38.0,2023-06-29,Debit Card,France
+P0168,Phone,Electronics,125.52,user168@example.com,165.3978771251395,57.0,2025-01-01,Paypal,Canada
+P0169,Shirt,Clothing,74.11,user169@example.com,92.63835651991388,97.0,2025-01-01,Credit Card,Germany
+P0170,Laptop,Electronics,118.23416842105257,user170@example.com,77.38791506927531,27.0,2023-02-28,Credit Card,UK
+P0171,Desk,Office,58.65,user171@example.com,73.3145671112343,55.0,2023-05-23,Debit Card,UK
+P0172,Book,Office,118.23416842105257,user172@example.com,75.52569145103685,33.0,2023-10-21,Paypal,Spain
+P0173,Book,Office,78.15,invalid-email,97.68694871757688,68.0,2023-04-26,Cash,Spain
+P0174,Phone,Electronics,88.19,user174@example.com,110.23455924449931,86.0,2023-08-08,Credit Card,Canada
+P0175,Desk,Office,86.64,user175@example.com,108.30072397990057,66.0,2023-10-15,Credit Card,Germany
+P0176,Laptop,Electronics,99.85,user176@example.com,124.81549747108072,10.0,2023-11-15,Paypal,Germany
+P0178,Book,Office,114.88,user178@example.com,143.6060223147195,74.0,2023-12-12,Paypal,Spain
+P0179,Book,Office,73.65,user179@example.com,92.06029500286132,97.0,2023-11-26,Credit Card,Canada
+P0180,Book,Office,145.28,user180@example.com,181.60507499768858,38.0,2023-10-13,Credit Card,Canada
+P0181,Phone,Electronics,95.02,user181@example.com,118.77002043295019,13.0,2023-01-14,Paypal,Germany
+P0182,Phone,Electronics,59.43,user182@example.com,74.28527330751152,31.0,2023-11-08,Paypal,USA
+P0183,Desk,Office,54.3,user183@example.com,67.87322505816662,47.0,2023-12-03,Paypal,Canada
+P0184,Laptop,Electronics,91.58,user184@example.com,114.47417245729555,88.0,2023-12-22,Cash,USA
+P0185,Book,Office,74.64,user185@example.com,93.29611644022448,52.0,2025-01-01,Credit Card,USA
+P0186,Shirt,Clothing,97.14,user186@example.com,121.42001482276275,56.0,2023-01-15,Credit Card,Unknown
+P0187,Desk,Office,91.36,user187@example.com,114.19712873720634,15.0,2023-04-03,Debit Card,Germany
+P0188,Shirt,Clothing,78.25,user188@example.com,97.81513262029382,29.0,2023-05-20,Cash,Canada
+P0189,Laptop,Electronics,59.68,user189@example.com,74.59618845794785,49.0,2023-12-26,Credit Card,Canada
+P0190,Book,Office,43.64,user190@example.com,54.554583259424064,5.0,2023-06-08,Cash,France
+P0191,Book,Office,69.28,user191@example.com,86.60455143798937,29.0,2023-06-23,Debit Card,France
+P0192,Shirt,Clothing,100.55,user192@example.com,125.69196382970416,49.0,2023-06-29,Credit Card,UK
+P0193,Shirt,Clothing,85.14,user193@example.com,106.42281232390611,68.0,2023-01-04,Debit Card,France
+P0194,Desk,Office,50.1,user194@example.com,62.62783663864036,76.0,2023-04-03,Debit Card,Spain
+P0195,Book,Office,84.16,user195@example.com,105.19542777553546,45.0,2023-03-15,Cash,France
+P0196,Desk,Office,89.25,user196@example.com,111.5595213918651,2.0,2023-10-17,Credit Card,Germany
+P0197,Book,Office,58.79,user197@example.com,73.48427691396601,27.0,2025-01-01,Credit Card,Germany
+P0198,Laptop,Electronics,83.69,user198@example.com,104.61175317836583,95.0,2023-07-25,Credit Card,Spain
+P0199,Desk,Office,81.4,user199@example.com,101.74626155338,36.0,2023-02-05,Credit Card,UK
+P0200,Desk,Office,52.57,user200@example.com,65.71089106508131,36.0,2023-03-14,Debit Card,Germany
+P0201,Desk,Office,88.59,user201@example.com,110.7336208104485,26.0,2023-11-21,Cash,Germany
+P0202,Desk,Office,93.46,user202@example.com,116.82353579104704,43.0,2023-01-16,Cash,Spain
+P0203,Desk,Office,105.99,user203@example.com,165.3978771251395,27.0,2023-02-16,Cash,France
+P0204,Laptop,Electronics,105.29,user204@example.com,131.6140615610471,69.0,2023-09-29,Cash,USA
+P0205,Book,Office,46.94,user205@example.com,58.669918961287266,20.0,2023-04-21,Debit Card,USA
+P0206,Shirt,Clothing,57.49,user206@example.com,71.86524880254632,11.0,2025-01-01,Debit Card,Canada
+P0207,Book,Office,92.36,user207@example.com,115.4510580162598,74.0,2023-08-03,Debit Card,France
+P0208,Laptop,Electronics,92.33,invalid-email,115.41357852736627,49.0,2023-08-21,Paypal,Germany
+P0209,Shirt,Clothing,92.36,user209@example.com,115.45143058918143,6.0,2023-06-24,Paypal,Canada
+P0210,Desk,Office,172.47,user210@example.com,215.58194471964163,72.0,2023-03-22,Credit Card,USA
+P0211,Shirt,Clothing,93.7,user211@example.com,117.12671532079501,23.0,2023-07-09,Debit Card,France
+P0212,Phone,Electronics,107.25,user212@example.com,134.06696920541796,47.0,2023-06-09,Debit Card,France
+P0213,Book,Office,102.9,user213@example.com,165.3978771251395,49.0,2023-06-16,Credit Card,Spain
+P0214,Book,Office,95.63,user214@example.com,119.54173753917394,46.0,2023-10-18,Paypal,Germany
+P0215,Desk,Office,72.43,user215@example.com,90.54192266078964,12.0,2023-11-02,Credit Card,UK
+P0216,Desk,Office,98.22,user216@example.com,122.76907661479801,90.0,2023-02-13,Cash,USA
+P0218,Phone,Electronics,74.32,user218@example.com,92.89544179779973,62.0,2023-03-21,Credit Card,UK
+P0219,Laptop,Electronics,68.35,invalid-email,85.4390935651269,82.0,2023-03-22,Paypal,Canada
+P0220,Shirt,Clothing,81.96,user220@example.com,102.45622418158968,89.0,2023-11-13,Paypal,Canada
+P0221,Desk,Office,135.55,user221@example.com,169.43975700020525,97.0,2023-01-26,Debit Card,USA
+P0222,Book,Office,35.19,user222@example.com,43.98204422224755,60.0,2023-12-12,Paypal,Spain
+P0223,Book,Office,96.47,user223@example.com,120.5878057112354,43.0,2023-02-11,Cash,Spain
+P0224,Phone,Electronics,41.29,user224@example.com,51.61852386431045,76.0,2023-05-20,Credit Card,Germany
+P0225,Laptop,Electronics,68.67,user225@example.com,85.842044026317,68.0,2023-08-15,Cash,Spain
+P0226,Book,Office,106.13,user226@example.com,132.66851790902098,5.0,2023-12-05,Credit Card,Spain
+P0227,Book,Office,81.54,user227@example.com,165.3978771251395,37.0,2023-08-06,Paypal,France
+P0228,Desk,Office,54.13,user228@example.com,67.66765666212082,72.0,2023-09-06,Debit Card,Canada
+P0229,Laptop,Electronics,62.83,user229@example.com,165.3978771251395,92.0,2025-01-01,Paypal,Unknown
+P0230,Desk,Office,96.31,user230@example.com,120.38793246804028,31.0,2023-08-15,Paypal,France
+P0231,Laptop,Electronics,62.47,user231@example.com,78.0890010484859,9.0,2023-08-01,Paypal,UK
+P0232,Laptop,Electronics,85.2,user232@example.com,106.49375768745925,51.0,2023-05-20,Debit Card,Germany
+P0233,Book,Office,118.23416842105257,user233@example.com,165.3978771251395,49.0,2023-04-21,Credit Card,Spain
+P0234,Phone,Electronics,64.36,user234@example.com,165.3978771251395,78.0,2023-09-20,Paypal,Canada
+P0235,Shirt,Clothing,118.23416842105257,user235@example.com,164.31832267975977,40.0,2023-02-28,Credit Card,Germany
+P0236,Laptop,Electronics,95.21,user236@example.com,119.01757066954033,41.0,2023-06-26,Paypal,Germany
+P0237,Desk,Office,31.4,user237@example.com,165.3978771251395,86.0,2023-08-09,Debit Card,UK
+P0238,Shirt,Clothing,84.47,user238@example.com,105.59362944308283,11.0,2023-02-26,Credit Card,USA
+P0239,Book,Office,64.12,user239@example.com,80.14640605694836,49.0,2023-05-26,Cash,UK
+P0240,Phone,Electronics,118.23416842105257,user240@example.com,125.57300004388672,1.0,2023-12-14,Debit Card,Canada
+P0241,Book,Office,60.98,user241@example.com,76.22437784701899,46.0,2023-12-14,Debit Card,France
+P0242,Book,Office,77.25,user242@example.com,96.55790675599303,49.0,2023-10-31,Cash,Spain
+P0243,Book,Office,92.12,user243@example.com,115.14961836941372,90.0,2023-09-07,Credit Card,Canada
+P0244,Desk,Office,100.78,user244@example.com,125.97265582510364,36.0,2023-09-27,Debit Card,France
+P0245,Shirt,Clothing,51.19,user245@example.com,63.991107788326715,49.0,2025-01-01,Cash,Canada
+P0246,Phone,Electronics,71.97,user246@example.com,89.96496292477156,87.0,2023-06-07,Cash,Spain
+P0247,Shirt,Clothing,68.6,user247@example.com,85.75164066517131,57.0,2023-01-24,Debit Card,France
+P0248,Shirt,Clothing,64.32,user248@example.com,80.40012302278865,1.0,2023-04-23,Paypal,Germany
+P0249,Phone,Electronics,122.37,user249@example.com,152.9636272084329,63.0,2023-07-22,Credit Card,UK
+P0250,Shirt,Clothing,89.72,user250@example.com,112.14945132882866,54.0,2023-11-03,Cash,Canada
+P0251,Shirt,Clothing,49.74,user251@example.com,165.3978771251395,55.0,2023-01-29,Credit Card,Canada
+P0252,Phone,Electronics,102.03,user252@example.com,127.53585841164329,40.0,2023-01-04,Cash,Spain
+P0253,Laptop,Electronics,118.23416842105257,user253@example.com,163.664685910379,15.0,2023-04-15,Debit Card,UK
+P0254,Book,Office,104.78,user254@example.com,130.9739578165344,21.0,2023-06-04,Paypal,Germany
+P0255,Desk,Office,43.54,user255@example.com,54.4189010213796,47.0,2023-04-19,Credit Card,Spain
+P0256,Desk,Office,68.38,user256@example.com,85.47297781401245,73.0,2023-03-12,Credit Card,Germany
+P0257,Laptop,Electronics,110.41,user257@example.com,138.00733447559867,53.0,2023-05-11,Cash,Germany
+P0258,Shirt,Clothing,63.02,user258@example.com,78.76991603143658,49.0,2023-05-29,Paypal,UK
+P0259,Shirt,Clothing,118.23416842105257,user259@example.com,113.31458284438685,74.0,2023-06-17,Debit Card,Unknown
+P0260,Desk,Office,98.59,user260@example.com,123.2390216028801,52.0,2023-03-03,Debit Card,UK
+P0261,Desk,Office,57.75,user261@example.com,72.19208585265751,57.0,2023-01-04,Credit Card,France
+P0262,Desk,Office,78.57,user262@example.com,165.3978771251395,26.0,2023-09-12,Debit Card,Germany
+P0263,Shirt,Clothing,2.21,user263@example.com,165.3978771251395,41.0,2023-08-09,Debit Card,France
+P0264,Laptop,Electronics,55.41,user264@example.com,69.2683707599713,35.0,2025-01-01,Debit Card,Canada
+P0265,Desk,Office,73.94,user265@example.com,92.4229554582052,63.0,2023-03-08,Credit Card,Germany
+P0266,Phone,Electronics,50.05,user266@example.com,62.56650454105451,25.0,2023-07-14,Debit Card,Spain
+P0267,Phone,Electronics,119.18,user267@example.com,165.3978771251395,90.0,2023-09-30,Cash,UK
+P0268,Desk,Office,45.68,user268@example.com,57.09575866118102,75.0,2023-12-27,Paypal,France
+P0269,Phone,Electronics,118.23416842105257,user269@example.com,86.79866539909048,38.0,2023-04-28,Cash,USA
+P0270,Laptop,Electronics,83.14,user270@example.com,103.92221731858274,2.0,2023-09-14,Credit Card,Unknown
+P0271,Desk,Office,114.59,user271@example.com,143.23819867198347,7.0,2023-10-14,Cash,Unknown
+P0272,Shirt,Clothing,45.54,user272@example.com,56.92413546461682,82.0,2023-12-09,Credit Card,Canada
+P0273,Phone,Electronics,107.92,user273@example.com,134.8949125646488,91.0,2023-07-01,Cash,USA
+P0274,Desk,Office,80.25,user274@example.com,100.3069918305876,34.0,2023-02-06,Cash,Germany
+P0275,Laptop,Electronics,56.44,user275@example.com,165.3978771251395,91.0,2023-07-23,Paypal,Germany
+P0276,Laptop,Electronics,91.09,user276@example.com,113.86310422789812,49.0,2023-01-22,Credit Card,USA
+P0277,Laptop,Electronics,84.78,user277@example.com,105.9717908672041,43.0,2023-08-12,Debit Card,Spain
+P0278,Book,Office,65.59,user278@example.com,81.99349368523616,59.0,2023-01-10,Debit Card,Spain
+P0279,Shirt,Clothing,118.23416842105257,user279@example.com,102.09406254970057,51.0,2023-08-24,Credit Card,UK
+P0280,Phone,Electronics,70.75,user280@example.com,88.4405920941472,54.0,2023-02-09,Cash,USA
+P0281,Phone,Electronics,82.72,user281@example.com,103.40552035753744,24.0,2023-06-10,Debit Card,Unknown
+P0282,Shirt,Clothing,95.89,user282@example.com,119.8639202356314,49.0,2023-10-22,Debit Card,UK
+P0283,Phone,Electronics,118.06,user283@example.com,147.58050448436057,71.0,2023-08-08,Paypal,France
+P0284,Shirt,Clothing,50.29,user284@example.com,62.865535035194526,52.0,2023-10-21,Credit Card,Germany
+P0285,Book,Office,131.19,user285@example.com,163.991001239688,70.0,2023-07-27,Cash,Canada
+P0286,Desk,Office,33.15,user286@example.com,41.437366014324944,88.0,2023-12-30,Paypal,Spain
+P0287,Desk,Office,76.36,user287@example.com,165.3978771251395,33.0,2023-11-24,Paypal,Spain
+P0288,Laptop,Electronics,94.12,user288@example.com,117.64951619453728,49.0,2023-08-02,Debit Card,Canada
+P0289,Book,Office,86.74,user289@example.com,165.3978771251395,29.0,2023-05-29,Credit Card,Unknown
+P0290,Shirt,Clothing,65.06,user290@example.com,81.31901440538218,63.0,2023-02-28,Paypal,UK
+P0291,Laptop,Electronics,75.01,invalid-email,93.75633248928175,22.0,2023-07-27,Paypal,Spain
+P0292,Phone,Electronics,68.17,user292@example.com,85.20997196023501,26.0,2023-01-11,Paypal,Germany
+P0293,Phone,Electronics,65.86,user293@example.com,82.31905729167364,28.0,2023-06-16,Credit Card,Spain
+P0294,Shirt,Clothing,100.39,user294@example.com,165.3978771251395,85.0,2025-01-01,Cash,Spain
+P0295,Phone,Electronics,88.57,user295@example.com,110.71046457895142,49.0,2023-11-13,Paypal,Canada
+P0296,Book,Office,63.37,user296@example.com,79.21271214218038,71.0,2023-08-24,Cash,France
+P0298,Laptop,Electronics,87.38,user298@example.com,109.21898562629828,84.0,2023-07-05,Paypal,Spain
+P0299,Laptop,Electronics,99.51,user299@example.com,165.3978771251395,49.0,2025-01-01,Cash,Germany
+P0300,Desk,Office,95.11,user300@example.com,118.88886525770836,20.0,2023-08-12,Debit Card,France
+P0301,Desk,Office,60.1,user301@example.com,75.13014967233782,86.0,2023-02-24,Credit Card,Canada
+P0302,Book,Office,66.56,user302@example.com,83.19456879409091,92.0,2023-05-05,Credit Card,Canada
+P0303,Desk,Office,97.94,user303@example.com,122.41880815369785,63.0,2023-08-12,Credit Card,Germany
+P0304,Book,Office,94.65,user304@example.com,118.31110796300395,61.0,2023-10-29,Paypal,Spain
+P0305,Laptop,Electronics,79.5,user305@example.com,99.37295218107556,49.0,2023-07-25,Credit Card,UK
+P0306,Laptop,Electronics,82.82,user306@example.com,103.51982149926346,71.0,2023-09-26,Credit Card,Unknown
+P0307,Shirt,Clothing,110.66,user307@example.com,138.32994687365274,1.0,2023-02-10,Cash,Germany
+P0308,Desk,Office,65.8,user308@example.com,82.25285833492511,96.0,2023-07-22,Cash,UK
+P0309,Phone,Electronics,118.23416842105257,user309@example.com,116.41292143510113,13.0,2023-06-08,Paypal,Germany
+P0310,Desk,Office,75.15,user310@example.com,93.93422042698317,94.0,2023-06-23,Cash,Germany
+P0311,Desk,Office,74.78,user311@example.com,93.46956390318338,49.0,2023-04-24,Cash,UK
+P0312,Shirt,Clothing,106.37,user312@example.com,132.96330555961572,51.0,2023-06-20,Cash,Canada
+P0313,Shirt,Clothing,99.81,invalid-email,124.7624904696409,56.0,2023-03-28,Cash,Canada
+P0314,Laptop,Electronics,99.52,user314@example.com,124.40528908001916,83.0,2023-02-09,Debit Card,France
+P0315,Phone,Electronics,111.33,user315@example.com,139.16436421462987,49.0,2023-09-19,Credit Card,Germany
+P0316,Desk,Office,80.5,user316@example.com,100.63011524898278,32.0,2023-11-21,Credit Card,Canada
+P0317,Book,Office,96.37,user317@example.com,120.45858913884892,30.0,2023-02-28,Cash,France
+P0318,Phone,Electronics,72.55,user318@example.com,90.69199730219631,29.0,2023-09-29,Paypal,USA
+P0319,Laptop,Electronics,87.78,user319@example.com,109.72499057465326,49.0,2023-09-19,Cash,France
+P0320,Desk,Office,76.88,user320@example.com,96.09570836896947,45.0,2023-04-10,Paypal,France
+P0321,Desk,Office,82.33,user321@example.com,102.90987894978154,93.0,2023-06-28,Credit Card,France
+P0322,Desk,Office,94.28,user322@example.com,117.8547107631074,30.0,2023-06-29,Paypal,UK
+P0323,Desk,Office,60.36,user323@example.com,75.45337950299583,16.0,2023-11-27,Paypal,Germany
+P0324,Desk,Office,130.22,user324@example.com,162.7716182705638,40.0,2023-03-17,Credit Card,France
+P0325,Laptop,Electronics,55.86,user325@example.com,69.81947855500894,19.0,2023-05-01,Debit Card,Spain
+P0326,Phone,Electronics,50.86,user326@example.com,63.57434161636804,18.0,2023-02-22,Credit Card,UK
+P0327,Shirt,Clothing,107.79,user327@example.com,134.74332620500203,1.0,2023-03-16,Paypal,USA
+P0328,Desk,Office,99.0,invalid-email,123.74988081888807,49.0,2023-05-12,Debit Card,Germany
+P0329,Desk,Office,118.23416842105257,user329@example.com,118.72359451156466,47.0,2023-04-12,Cash,Germany
+P0330,Desk,Office,95.08,user330@example.com,118.8503652779284,66.0,2023-03-30,Debit Card,Spain
+P0331,Desk,Office,79.71,user331@example.com,99.63259681459256,92.0,2023-11-05,Paypal,Spain
+P0332,Shirt,Clothing,118.23416842105257,user332@example.com,73.08236885542506,94.0,2023-03-20,Credit Card,UK
+P0333,Phone,Electronics,81.82,user333@example.com,102.27413674581179,38.0,2023-12-02,Credit Card,Germany
+P0334,Laptop,Electronics,63.75,user334@example.com,79.68514865463665,51.0,2023-02-08,Credit Card,UK
+P0335,Desk,Office,103.4,user335@example.com,129.25359200253254,63.0,2025-01-01,Paypal,France
+P0336,Desk,Office,76.47,user336@example.com,95.58827855493584,4.0,2023-11-18,Paypal,UK
+P0337,Shirt,Clothing,60.19,user337@example.com,75.23508409622465,1.0,2023-09-10,Paypal,Germany
+P0338,Desk,Office,72.29,user338@example.com,90.3584247504102,8.0,2023-08-26,Credit Card,USA
+P0339,Book,Office,89.91,user339@example.com,112.38794362826873,29.0,2023-10-16,Credit Card,UK
+P0340,Shirt,Clothing,66.47,user340@example.com,83.08826341588075,55.0,2023-10-24,Debit Card,Spain
+P0341,Phone,Electronics,60.27,user341@example.com,75.33338813300706,49.0,2023-08-18,Paypal,UK
+P0342,Shirt,Clothing,85.85,user342@example.com,107.31061634475736,49.0,2023-12-15,Paypal,France
+P0343,Laptop,Electronics,85.88,user343@example.com,107.34899713326169,10.0,2025-01-01,Paypal,Germany
+P0344,Laptop,Electronics,67.83,user344@example.com,84.7917047388661,74.0,2023-11-26,Paypal,Spain
+P0345,Shirt,Clothing,68.7,user345@example.com,165.3978771251395,83.0,2023-11-22,Debit Card,Spain
+P0346,Desk,Office,85.57,invalid-email,106.96149812072909,34.0,2023-11-16,Cash,Spain
+P0347,Desk,Office,45.25,user347@example.com,56.55746975508028,97.0,2023-06-15,Debit Card,UK
+P0348,Shirt,Clothing,46.22,user348@example.com,57.776086768703344,87.0,2023-11-18,Debit Card,Canada
+P0349,Phone,Electronics,62.76,user349@example.com,165.3978771251395,55.0,2023-06-11,Credit Card,Unknown
+P0350,Shirt,Clothing,74.88,user350@example.com,93.59658544864459,92.0,2023-03-19,Credit Card,France
+P0351,Desk,Office,87.46,user351@example.com,109.32722696794013,32.0,2023-08-14,Paypal,Spain
+P0352,Book,Office,115.41,user352@example.com,144.26068650848657,49.0,2023-02-04,Cash,USA
+P0353,Desk,Office,100.58,user353@example.com,125.72978869606058,7.0,2023-08-29,Debit Card,USA
+P0354,Laptop,Electronics,76.16,user354@example.com,95.20184410109718,49.0,2023-08-15,Paypal,Germany
+P0355,Desk,Office,79.54,user355@example.com,99.42951376291934,8.0,2025-01-01,Credit Card,Spain
+P0356,Laptop,Electronics,55.94,user356@example.com,69.92411906086573,65.0,2023-06-05,Debit Card,Spain
+P0357,Desk,Office,79.56,user357@example.com,99.4446059202283,57.0,2023-05-21,Paypal,France
+P0358,Shirt,Clothing,73.07,user358@example.com,91.34024083239586,67.0,2023-10-30,Credit Card,UK
+P0359,Laptop,Electronics,87.75,user359@example.com,109.68155681014268,88.0,2023-01-29,Credit Card,USA
+P0360,Book,Office,60.15,user360@example.com,75.1830716934303,49.0,2023-06-30,Debit Card,Germany
+P0361,Phone,Electronics,92.46,user361@example.com,115.58039542723517,49.0,2023-09-17,Cash,Unknown
+P0362,Shirt,Clothing,116.79,user362@example.com,145.98216739007734,72.0,2023-02-07,Debit Card,UK
+P0363,Phone,Electronics,77.39,user363@example.com,96.73719554629427,54.0,2023-06-08,Credit Card,France
+P0364,Book,Office,89.64,user364@example.com,112.05135166296824,67.0,2023-08-25,Cash,Spain
+P0365,Shirt,Clothing,96.56,user365@example.com,120.70431975133337,51.0,2023-08-20,Credit Card,USA
+P0366,Book,Office,70.37,user366@example.com,87.96338584342492,97.0,2023-01-20,Cash,France
+P0367,Shirt,Clothing,85.38,user367@example.com,106.7227744543125,92.0,2023-01-30,Paypal,Canada
+P0368,Phone,Electronics,80.3,invalid-email,165.3978771251395,8.0,2023-07-08,Paypal,UK
+P0369,Laptop,Electronics,82.34,user369@example.com,102.93028295646495,34.0,2023-05-27,Debit Card,USA
+P0370,Desk,Office,61.45,user370@example.com,76.809706484336,35.0,2023-02-09,Cash,Germany
+P0371,Book,Office,80.59,user371@example.com,165.3978771251395,96.0,2025-01-01,Debit Card,Germany
+P0372,Phone,Electronics,91.95,user372@example.com,114.93994873736348,88.0,2023-02-16,Debit Card,France
+P0373,Phone,Electronics,114.83,user373@example.com,143.53430823385125,78.0,2023-11-11,Debit Card,Canada
+P0374,Phone,Electronics,103.02,user374@example.com,128.7781247825562,32.0,2023-11-01,Paypal,USA
+P0375,Shirt,Clothing,118.23416842105257,user375@example.com,164.5954737253467,46.0,2023-09-17,Debit Card,Spain
+P0376,Laptop,Electronics,61.58,user376@example.com,76.97957311335851,16.0,2023-07-16,Paypal,Germany
+P0377,Phone,Electronics,100.94,user377@example.com,126.16961910162034,68.0,2023-08-25,Credit Card,Canada
+P0378,Shirt,Clothing,84.4,invalid-email,105.50026017215055,37.0,2023-10-25,Paypal,Spain
+P0379,Shirt,Clothing,132.56,user379@example.com,165.69408799653016,54.0,2023-10-11,Credit Card,USA
+P0380,Desk,Office,60.6,user380@example.com,75.75105143934546,85.0,2023-01-22,Paypal,UK
+P0381,Phone,Electronics,59.85,user381@example.com,74.80834473457672,14.0,2023-08-19,Paypal,Canada
+P0383,Shirt,Clothing,29.03,user383@example.com,36.283128270705795,49.0,2023-11-30,Cash,USA
+P0384,Book,Office,67.38,user384@example.com,84.22734934957717,48.0,2023-04-07,Debit Card,France
+P0385,Book,Office,61.78,user385@example.com,77.22602015338906,82.0,2023-06-14,Debit Card,Spain
+P0386,Shirt,Clothing,83.61,user386@example.com,104.51181359428622,7.0,2025-01-01,Paypal,France
+P0387,Laptop,Electronics,88.2,user387@example.com,110.25267927331478,74.0,2023-09-01,Debit Card,Unknown
+P0388,Book,Office,125.03,invalid-email,156.28512517647658,49.0,2023-09-14,Cash,UK
+P0389,Desk,Office,102.81,user389@example.com,128.5127151455815,33.0,2023-03-19,Debit Card,UK
+P0390,Phone,Electronics,66.15,user390@example.com,82.69289033012791,23.0,2023-02-01,Credit Card,Germany
+P0391,Desk,Office,58.44,user391@example.com,73.04755985954927,85.0,2023-08-19,Credit Card,Unknown
+P0392,Phone,Electronics,91.81,user392@example.com,114.75757514519518,19.0,2023-02-22,Paypal,UK
+P0393,Shirt,Clothing,48.31,user393@example.com,60.393003789380735,19.0,2023-06-25,Debit Card,Canada
+P0394,Book,Office,123.96,user394@example.com,154.94376297563062,36.0,2024-01-01,Debit Card,Spain
+P0395,Laptop,Electronics,108.31,user395@example.com,135.38320362163861,49.0,2023-02-13,Cash,Canada
+P0396,Shirt,Clothing,68.74,user396@example.com,85.92473043685885,60.0,2023-09-16,Paypal,UK
+P0397,Book,Office,38.88,user397@example.com,48.605964127273666,82.0,2023-11-27,Cash,UK
+P0398,Book,Office,112.49,user398@example.com,140.6161712249624,2.0,2023-03-30,Credit Card,Canada
+P0399,Phone,Electronics,77.25,user399@example.com,96.56380464242146,1.0,2023-01-21,Debit Card,Germany
+P0400,Book,Office,109.71,user400@example.com,137.13448935920385,47.0,2023-05-07,Debit Card,Germany
+P0401,Book,Office,41.73,user401@example.com,52.167170236168985,69.0,2023-12-29,Credit Card,Spain
+P0402,Shirt,Clothing,65.61,user402@example.com,82.01874931138681,20.0,2023-08-13,Paypal,Canada
+P0403,Book,Office,80.13,user403@example.com,100.1573109915455,11.0,2023-08-13,Paypal,Spain
+P0404,Desk,Office,81.13,user404@example.com,101.40941781294227,2.0,2023-09-26,Paypal,Unknown
+P0405,Phone,Electronics,69.2,invalid-email,86.49803585562269,67.0,2023-09-25,Credit Card,Canada
+P0406,Laptop,Electronics,94.95,user406@example.com,118.68549797042496,87.0,2023-11-09,Debit Card,Germany
+P0407,Laptop,Electronics,54.38,user407@example.com,67.97138711852217,12.0,2023-03-23,Debit Card,France
+P0408,Book,Office,76.58,user408@example.com,95.7286154493612,20.0,2023-07-06,Paypal,France
+P0409,Phone,Electronics,82.89,user409@example.com,103.60886895135697,5.0,2023-07-10,Cash,USA
+P0410,Shirt,Clothing,92.35,user410@example.com,115.43316502176248,37.0,2023-05-25,Debit Card,Germany
+P0411,Desk,Office,97.08,user411@example.com,121.34844634266669,49.0,2023-07-18,Debit Card,UK
+P0412,Phone,Electronics,53.01,user412@example.com,66.26073724486393,94.0,2023-07-29,Debit Card,Spain
+P0413,Phone,Electronics,43.18,user413@example.com,53.976574877931334,9.0,2023-06-23,Debit Card,Canada
+P0414,Shirt,Clothing,110.66,user414@example.com,165.3978771251395,98.0,2023-12-14,Cash,France
+P0415,Laptop,Electronics,118.23416842105257,user415@example.com,165.3978771251395,53.0,2023-11-03,Paypal,Germany
+P0416,Laptop,Electronics,62.04,user416@example.com,77.5454039033034,44.0,2023-01-27,Paypal,UK
+P0417,Shirt,Clothing,117.23,user417@example.com,146.53455926567568,99.0,2023-11-20,Cash,Germany
+P0418,Book,Office,82.78,user418@example.com,103.47023902878576,86.0,2023-11-28,Paypal,Germany
+P0420,Laptop,Electronics,81.62,user420@example.com,102.02555444230327,81.0,2023-02-03,Debit Card,France
+P0421,Book,Office,129.46,user421@example.com,161.82243774645963,74.0,2023-06-18,Debit Card,Germany
+P0422,Phone,Electronics,122.13,user422@example.com,152.66022527329613,30.0,2023-02-18,Cash,Spain
+P0423,Laptop,Electronics,74.02,user423@example.com,92.5310755456278,59.0,2023-10-13,Debit Card,Unknown
+P0424,Phone,Electronics,103.32,invalid-email,129.14712852863067,87.0,2023-12-14,Cash,Spain
+P0425,Book,Office,95.49,user425@example.com,119.36127848755443,96.0,2023-07-17,Paypal,Unknown
+P0426,Shirt,Clothing,112.85,user426@example.com,141.05894672597046,81.0,2023-05-26,Paypal,Canada
+P0427,Phone,Electronics,56.84,user427@example.com,71.05229618259686,81.0,2023-05-10,Cash,UK
+P0428,Laptop,Electronics,96.47,user428@example.com,120.58154379995318,14.0,2023-12-03,Paypal,Germany
+P0429,Phone,Electronics,105.4,user429@example.com,131.75273460548763,9.0,2023-11-05,Paypal,France
+P0430,Phone,Electronics,37.79,user430@example.com,47.23781540730657,40.0,2023-03-18,Cash,USA
+P0431,Laptop,Electronics,51.6,user431@example.com,64.50224462002674,66.0,2023-06-20,Cash,Canada
+P0432,Book,Office,31.06,user432@example.com,38.823034667196985,25.0,2023-02-11,Cash,France
+P0433,Laptop,Electronics,73.53,user433@example.com,91.91779496666327,73.0,2023-10-26,Debit Card,Canada
+P0434,Desk,Office,97.22,user434@example.com,121.52626767387886,22.0,2023-12-06,Debit Card,USA
+P0435,Book,Office,116.06,user435@example.com,145.07071156288083,4.0,2023-03-14,Paypal,Germany
+P0436,Laptop,Electronics,118.23416842105257,user436@example.com,102.22284341259325,26.0,2023-06-29,Paypal,Spain
+P0437,Shirt,Clothing,119.09,user437@example.com,148.85846636713876,58.0,2023-06-08,Debit Card,Germany
+P0438,Desk,Office,46.88,user438@example.com,165.3978771251395,29.0,2023-12-02,Cash,Spain
+P0439,Book,Office,39.12,invalid-email,48.89852681934536,98.0,2023-12-24,Debit Card,France
+P0440,Desk,Office,78.67,user440@example.com,98.33356903310144,87.0,2023-12-06,Paypal,Canada
+P0441,Phone,Electronics,89.22,user441@example.com,111.52196346817922,37.0,2023-07-20,Debit Card,France
+P0442,Desk,Office,79.22,user442@example.com,99.01915755717721,75.0,2023-03-08,Debit Card,UK
+P0443,Book,Office,30.38,user443@example.com,37.9767369988037,70.0,2023-11-01,Cash,France
+P0444,Desk,Office,77.86,user444@example.com,97.32639881461635,18.0,2023-12-29,Paypal,France
+P0445,Desk,Office,48.69,user445@example.com,60.865914984854406,85.0,2023-02-13,Paypal,UK
+P0446,Phone,Electronics,96.07,user446@example.com,120.09017646490115,42.0,2023-06-08,Cash,USA
+P0447,Phone,Electronics,88.8,user447@example.com,110.99794738290545,41.0,2023-10-14,Credit Card,Spain
+P0448,Book,Office,57.44,user448@example.com,71.80360641017934,38.0,2023-07-12,Credit Card,Unknown
+P0449,Desk,Office,67.67,user449@example.com,84.5839924798992,34.0,2023-11-26,Cash,Spain
+P0450,Book,Office,54.58,user450@example.com,68.22359434333146,17.0,2023-06-18,Credit Card,Spain
+P0451,Desk,Office,78.5,user451@example.com,98.11962708180485,37.0,2023-03-07,Cash,France
+P0452,Phone,Electronics,102.92,user452@example.com,128.65426961503715,25.0,2023-12-10,Debit Card,Spain
+P0453,Book,Office,56.34,user453@example.com,70.4282186099337,76.0,2023-12-26,Debit Card,Spain
+P0454,Shirt,Clothing,92.1,user454@example.com,115.12139546553533,87.0,2023-12-17,Credit Card,France
+P0455,Shirt,Clothing,67.27,user455@example.com,84.09227144882678,49.0,2023-09-27,Cash,UK
+P0456,Phone,Electronics,118.23416842105257,user456@example.com,76.21381503212967,85.0,2023-02-17,Paypal,France
+P0457,Phone,Electronics,77.43,user457@example.com,96.78908920136327,27.0,2023-11-27,Debit Card,USA
+P0458,Book,Office,55.15,user458@example.com,68.94273032741877,57.0,2023-12-10,Paypal,Germany
+P0459,Phone,Electronics,66.71,user459@example.com,83.39052083958454,49.0,2023-08-05,Credit Card,UK
+P0460,Shirt,Clothing,51.25,invalid-email,64.06366322233454,6.0,2023-09-18,Debit Card,France
+P0461,Laptop,Electronics,127.15,user461@example.com,165.3978771251395,91.0,2023-07-05,Credit Card,France
+P0462,Shirt,Clothing,80.85,user462@example.com,101.05790655915186,40.0,2023-01-10,Credit Card,Germany
+P0463,Shirt,Clothing,63.21,user463@example.com,79.00823476022244,98.0,2023-07-05,Cash,Unknown
+P0464,Shirt,Clothing,85.14,user464@example.com,106.41939732202665,12.0,2023-06-08,Credit Card,Spain
+P0465,Book,Office,77.3,user465@example.com,96.6301585092751,53.0,2023-04-03,Credit Card,USA
+P0466,Laptop,Electronics,74.7,user466@example.com,93.37091201400332,71.0,2023-04-20,Credit Card,Canada
+P0467,Shirt,Clothing,94.74,user467@example.com,118.42500100130276,10.0,2023-06-24,Paypal,USA
+P0468,Phone,Electronics,98.18,user468@example.com,122.72523130141916,49.0,2023-09-06,Paypal,Spain
+P0469,Phone,Electronics,67.27,user469@example.com,84.08496557168418,17.0,2023-04-09,Debit Card,Germany
+P0470,Laptop,Electronics,66.18,user470@example.com,82.7254527806596,49.0,2023-04-26,Credit Card,Unknown
+P0471,Book,Office,73.4,user471@example.com,91.74844908545067,85.0,2023-03-12,Cash,Canada
+P0472,Book,Office,24.75,user472@example.com,30.942365057932456,92.0,2023-03-21,Cash,USA
+P0473,Book,Office,43.64,user473@example.com,54.54426813404344,49.0,2023-02-09,Credit Card,France
+P0474,Shirt,Clothing,112.8,user474@example.com,141.00622802333572,46.0,2023-06-01,Debit Card,Spain
+P0475,Book,Office,119.48,user475@example.com,149.34903140503852,64.0,2023-02-21,Cash,Canada
+P0476,Desk,Office,118.23416842105257,user476@example.com,92.52891881330865,2.0,2023-09-17,Paypal,UK
+P0477,Book,Office,93.84,user477@example.com,117.29670889167299,54.0,2023-10-04,Debit Card,USA
+P0478,Phone,Electronics,87.47,user478@example.com,109.33750463630608,65.0,2023-09-27,Cash,Spain
+P0479,Desk,Office,153.89,user479@example.com,192.36642425365713,51.0,2023-01-20,Paypal,Canada
+P0480,Phone,Electronics,106.87,user480@example.com,133.5872473430373,53.0,2025-01-01,Paypal,UK
+P0481,Shirt,Clothing,118.23416842105257,user481@example.com,96.162472255577,36.0,2023-06-22,Credit Card,USA
+P0482,Laptop,Electronics,57.07,user482@example.com,71.33378678198723,49.0,2023-11-13,Cash,Spain
+P0483,Shirt,Clothing,41.45,user483@example.com,51.80661039227282,29.0,2023-03-09,Debit Card,USA
+P0484,Phone,Electronics,84.88,user484@example.com,106.10390907601669,21.0,2023-11-02,Credit Card,UK
+P0485,Desk,Office,61.85,user485@example.com,77.3094776414709,11.0,2023-07-12,Debit Card,France
+P0486,Desk,Office,45.87,user486@example.com,57.33238871206977,40.0,2023-03-20,Cash,France
+P0487,Book,Office,64.48,user487@example.com,80.6028134727242,11.0,2023-03-25,Credit Card,Spain
+P0488,Phone,Electronics,54.04,user488@example.com,67.55355989156814,36.0,2023-04-03,Cash,UK
+P0489,Book,Office,120.49,user489@example.com,150.61424905217694,59.0,2025-01-01,Paypal,France
+P0490,Phone,Electronics,101.16,user490@example.com,126.44919270848351,39.0,2023-11-16,Cash,USA
+P0491,Shirt,Clothing,79.81,user491@example.com,99.76082076050147,49.0,2023-03-26,Cash,UK
+P0492,Shirt,Clothing,115.52,user492@example.com,144.39832416670077,54.0,2023-08-13,Credit Card,USA
+P0493,Book,Office,81.86,user493@example.com,102.32104922942855,98.0,2023-01-23,Cash,UK
+P0494,Laptop,Electronics,59.33,user494@example.com,74.1614739601521,55.0,2023-07-30,Cash,UK
+P0495,Shirt,Clothing,116.55,user495@example.com,145.69372231808973,24.0,2023-07-06,Credit Card,Spain
+P0496,Phone,Electronics,92.93,user496@example.com,116.16730131053976,22.0,2023-12-13,Debit Card,USA
+P0497,Book,Office,55.11,user497@example.com,68.88261537020631,69.0,2023-05-02,Cash,UK
+P0498,Laptop,Electronics,75.43,user498@example.com,94.28983965749175,56.0,2023-08-16,Paypal,UK
+P0499,Book,Office,58.99,user499@example.com,73.73145239845728,33.0,2023-11-09,Credit Card,Spain
+P0500,Laptop,Electronics,46.81,user500@example.com,58.51600807106991,36.0,2023-05-26,Paypal,Spain
